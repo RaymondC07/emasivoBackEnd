@@ -19,11 +19,12 @@ app.use( cors() );
 
 //Middleware lectura del body
 app.use( express.json() );
-app.use( express.urlencoded({ extended: false })); 
+
 
 //Rutas
 //use middleware express
 app.use( '/api/auth', require( './routes/auth' ) );
+app.use( '/api/data', require('./routes/vehiculo') );
 
 
 app.listen( process.env.PORT, () => {
