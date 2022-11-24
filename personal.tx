@@ -1,0 +1,12 @@
+bcryptjs === Encriptaciones de datos, hash de una sola vía. Seguridad conexión.
+cors === servidor acepta peticiones de otros dominios. Middleware
+dotenv === configurar variables de entorno.
+express === framework para servidor con servicios REST. 
+express-validator === validaciones de campos formularios de express.
+jsonwebtoken === crear los token de conexión usuario.
+mongoose === comunicación con la BD.
+
+//MongoDB Compass revisar si el equipo de emasivo16 ya lo tiene instalado
+//Postman validar que lo tenga instalado el equipo.
+
+//console.log(process.env); ver variables de entorno

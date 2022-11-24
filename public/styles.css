@@ -1,0 +1,10 @@
+body{
+    background-color: azure;
+}
+
+h1{
+    color: crimson;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
